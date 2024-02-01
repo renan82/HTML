@@ -1,0 +1,50 @@
+<!DOCTYPE html> # INDICA QUE O ARQUIVO É HTML
+<html lang="en"> # "en" altera linguagem do site, colocar "pt-BR"
+<head>
+    <meta charset="UTF-8"> # TIPO DO TECLADO (ex:ABNT2)
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> #viewport INDICA A ADEQUAÇÃO/ADAPTAÇÃO AO DISPOSITIVO(PC, NOTEBOOK, TABLET, CELULAR) ONDE ESTÁ SENDO UTILIZAD
+    <title>Document</title> #TITULO DO DOCUMENTO
+</head>
+<body>
+    
+</body>
+</html>
+
+TAGS:
+
+<h1> </h1>   - indica o título principal
+<br>   - pular linha
+<b> </b>   - entre a tag, a palavra escrita ficará em negrito
+<i> </i>   - entre a tag i, a palavra escrita ficará em itálico
+
+---------------------------------
+
+INSERINDO IMAGENS E REDIRECIONANDO PARA SITES
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> AULA 01 HTML - ATIVIDADE 01</title>
+</head>
+
+<body>
+    <h1> MINHA PRIMEIRA PÁGINA  HTML </h1>
+    <h2> Sobre Mim</h2>
+    <p> Me chamo Renan , blá blá blá ... </p>
+    <h2> Meus Hobbies</h2>
+    <br> 1. Beber CERVEJA
+    <br> 2. ...
+    <br>
+    <br>
+    <a target="_blank" href="https://www.instagram.com/">"CLIQUE AQUI PARA IR para o INSTAGRAM"</a> # target="_blank" --> SERVE PARA REDIRECIONAR PARA UM SITE NOVO PERMANECENDO O SEU ABERTO
+    <br>
+    <img width="300" src="mulhergato.jpg" alt=" Mulher Gato">
+    <br>
+    <br>
+    <br>
+    <p> S E X T O U </p>
+    <br>
+    <img width="300" src="https://th.bing.com/th/id/R.1c3e068e0179a235f4be1e63ffe8504d?rik=NWLXdD3ipbTPhg&pid=ImgRaw&r=0" alt=" CERVEJA">
+

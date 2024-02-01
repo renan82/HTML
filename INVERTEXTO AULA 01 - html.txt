@@ -1,0 +1,133 @@
+INVERTEXTO AULA 01 - HTML
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+</head>
+
+<body>
+
+    <h1>Aula 1 - Elementos HTML</h1>
+    <p>Aprendendo <b>HTTP</b> </p>
+
+    <p> <b>Aprendendo</b> as <i>Tags</i> básicas
+      <br>
+      Tag h1
+      <br>
+      Tag h2
+      <br>
+      Tag h3
+      <br>
+      Tag h4
+      <br>
+      Tag h5
+      <br>
+      Tag h6
+      <br>
+      Tag p  
+    </p>
+
+
+
+
+
+
+
+
+    <h2>Praticando sobre:</h2>
+    <p>Tags de título</p>
+    <p>Entendendo estrutura HTML</p>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+</head>
+
+<body>
+    <h1>Minha Primeira Página HTML</h1>
+    <h2>Sobre Mim</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, autem voluptatibus ratione, dolor labore ipsam saepe, accusamus consectetur delectus odio veniam commodi facilis architecto amet obcaecati nisi maiores quidem dolorem.</p>
+    <h2>Meus Hobbies</h2>
+    <p>
+        Volei<br>
+        Boardgames<br>
+        Muay Thai<br>
+        Arquearia<br>
+    </p>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 1</title>
+</head>
+
+<body>
+    <a href="./pagina2.html">Ir para página 2</a>
+
+    <a href="#img2">Ir para a segunda imagem</a>
+
+    <h1>Minha Primeira Página HTML</h1>
+    <h2>Sobre Mim</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, autem voluptatibus ratione, dolor labore ipsam saepe, accusamus consectetur delectus odio veniam commodi facilis architecto amet obcaecati nisi maiores quidem dolorem.</p>
+    <h2>Meus Hobbies</h2>
+    <p>
+        Volei<br>
+        Boardgames<br>
+        Muay Thai<br>
+        Arquearia<br>
+    </p>
+
+    <a target="_blank" href="https://infinityschool.eadplataforma.app/">Ir para o site da Infinity School</a>
+    
+    <br>
+    
+    <a href="https://www.google.com/">
+        <img width="400" src="./imagens/imagem.jpg" alt="Imagem de duas mãos programando">
+    </a>
+
+    <br>
+    <img id="img2" width="400" src="https://t.ctcdn.com.br/IEAkIE4kb658FvElMNao6lpLPRE=/640x360/smart/i611963.jpeg" alt="Imagem de um homem programando">
+
+
+
+    <br>
+    <a href="mailto:abelardo.junior.181@gmail.com">Enviar um email para o Abel</a>
+    <br>
+    <a href="tel:+558598530674">Ligar para o abel</a>
+    <br>
+    <a href="https://wa.me/85985300694">WPP  do abel</a>
+</body>
+
+</html>
+
