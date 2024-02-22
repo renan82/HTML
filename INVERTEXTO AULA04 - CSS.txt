@@ -1,0 +1,450 @@
+https://www.invertexto.com/515aula4html
+
+REVISÃO DE TABELAS
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Cidade</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>João</td>
+                <td>22</td>
+                <td>Fortaleza</td>
+            </tr>
+    
+            <tr>
+                <td>Maria</td>
+                <td>28</td>
+                <td>Salvador</td>
+            </tr>
+
+            <tr>
+                <td>José</td>
+                <td>31</td>
+                <td>Belo Horizonte</td>
+            </tr>
+
+            <tr>
+                <td>Ana</td>
+                <td>18</td>
+                <td>Recife</td>
+            </tr>
+        </tbody>
+
+
+        <tfoot>
+            <tr>
+                <td colspan="3">Alunos Infinity</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
+
+
+
+CSS
+
+INLINE
+    <p style="color: blue;">Algum texto qualquer</p>
+
+INTERNO
+    <style>
+        p{
+            color: blue;
+            font-size: 30px;
+        }
+    </style>
+    <h1>Título qualquer</h1>
+    <p>Algum texto qualquer</p>
+    <p>Outro texto</p>
+
+
+
+
+
+
+
+CSS EXTERNO
+
+HTML
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="caixinha1">
+        <h1>Título qualquer</h1>
+        <p class="texto_grande">Algum texto qualquer</p>
+        <p id="diferentao">Outro texto</p>
+    </div>
+
+    <div class="caixinha2">
+        <h2>Um subtítulo</h2>
+        <p class="texto_grande">Mais um texto</p>
+    </div>
+
+
+    <ul class="lista_linguagens">
+        <li>Python</li>
+        <li>HTML</li>
+        <li>CSS</li>
+    </ul>
+
+</body>
+</html>
+
+
+
+
+
+
+CSS
+p{
+    color: blue;
+    font-size: 10px;
+}
+
+.caixinha1{
+    background-color: red;
+
+}
+
+.caixinha2{
+    /* MUDA A COR DE FUNDO */
+    background-color: green;
+}
+
+.texto_grande{
+    font-size: 24px;
+    font-style: italic;
+    color: aqua;
+}
+
+#diferentao{
+    /* MUDA A COR DA FONTE */
+    color: chartreuse;
+
+    /* MUDA O TAMANHO DA FONTE */
+    font-size: 18px;
+
+    /* MUDA A DECORAÇÃO DO TEXTO */
+    text-decoration:underline;
+
+    /* MUDA O ALINHAMENTO DO TEXTO */
+    text-align: center;
+}
+
+
+p{
+    color: black;
+}
+
+
+.lista_linguagens{
+    /* ESSA LINHA TIRA A BOLINHA DOS ITENS DA LISTA */
+    list-style:none;
+}
+
+li{
+    /* ESSA LINHA FAZ COM QUE O ITEM NÃO OCUPE A TELA INTEIRA */
+    display: inline;
+}
+
+
+
+
+
+
+ATIVIDADE 1
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Exercício de CSS</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    </head>
+<body>
+    <header class="cabecalho">
+        <h1 class="titulo">Bem-vindo ao Meu Site</h1>
+    </header>
+
+    <nav class="navegacao">
+        <ul class="lista">
+            <li class="lista_item"><a href="#">Início</a></li>
+
+            <li class="lista_item"><a href="#">Sobre</a></li>
+
+            <li class="lista_item"><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <article>
+            <h2>Artigo 1</h2>
+            <p>Este é o primeiro artigo.</p>
+        </article>
+
+        <article>
+            <h2>Artigo 2</h2>
+            <p>Este é o segundo artigo.</p>
+        </article>
+    </section>
+
+    <footer class="rodape">
+        <p class="texto_rodape">Direitos autorais © 2023</p>
+    </footer>
+</body>
+</html>
+
+
+
+.cabecalho{
+    background-color: lightgray;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.lista{
+    list-style: none;
+}
+
+.lista_item{
+    display: inline;
+}
+
+.rodape{
+    background-color: grey;
+}
+
+.texto_rodape{
+    color: white;
+}
+
+SELETORES COMBINADOS
+.cabecalho{
+    background-color: lightgray;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.lista{
+    list-style: none;
+}
+
+.lista_item{
+    display: inline;
+}
+
+.rodape{
+    background-color: grey;
+}
+
+.texto_rodape{
+    color: white;
+}
+
+
+.artigo1{
+    background-color: bisque;
+}
+
+/* .artigo1 p{
+    color: red;
+} */
+
+h2 + p{
+    color: blue;
+}
+
+
+HTML DO PROJETO RECEITAS
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Receitas de Natal</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1 class="titulo">Receitas de Natal</h1>
+  <h2 class="subtitulo">Escolha uma receita</h2>
+  <ul>
+    <li>
+      <a class="prato_nome" href="./pate.html">Patê de Frango com Cenoura</a>
+      <br>
+      <a href="./pate.html">
+        <img class="imagem_banner" width="300" src="https://www.receiteria.com.br/wp-content/uploads/pate-de-frango-com-cenoura-730x548.jpeg.webp">
+      </a>
+    </li>
+    <li>
+      <a class="prato_nome" href="./farofa.html">Farofa de bacon com calabresa simples</a>
+      <br>
+      <a href="./farofa.html">
+        <img class="imagem_banner" width="300" src="https://www.receiteria.com.br/wp-content/uploads/farofa-de-bacon-com-calabresa-simples-730x548.jpeg.webp">
+      </a>
+    </li>
+    <li>
+      <a class="prato_nome" href="./arroz.html">Arroz de Natal fácil</a>
+      <br>
+      <a href="./arroz.html">
+        <img class="imagem_banner" width="300" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-730x548.jpeg.webp"></a>
+    </li>
+    <li>
+      <a class="prato_nome" href="./chester.html">Chester simples</a>
+      <br>
+      <a href="./chester.html">
+        <img class="imagem_banner" width="300" src="https://www.receiteria.com.br/wp-content/uploads/chester-simples-730x548.jpeg.webp">
+      </a>
+    </li>
+    <li>
+      <a class="prato_nome" href="./peru.html">Peru de Natal</a>
+      <br>
+      <a href="./peru.html">
+        <img class="imagem_banner" width="300" src="https://www.receiteria.com.br/wp-content/uploads/peru-de-natal-13-730x480.jpg.webp">
+      </a>
+
+
+    </li>
+  </ul>
+</body>
+
+</html>
+
+RECEITA DO ARROZ
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arroz de Natal fácil</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <main>
+    <img class="imagem_banner" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-730x548.jpeg.webp" alt="">
+    <h1 class="titulo">Arroz de Natal fácil</h1>
+  </main>
+
+  <section>
+    <h2 class="subtitulo">Ingredientes</h2>
+    <ul class="ingredientes">
+      <li>Azeite a gosto</li>
+      <li>1/2 cebola média picada</li>
+      <li>1 dente de alho amassado</li>
+      <li>1 xícara de chá de arroz parboilizado</li>
+      <li>1 colher de chá de sal</li>
+      <li>2 xícaras de chá de água quente</li>
+      <li>1/2 cenoura ralada grossa</li>
+      <li>1/2 xícara de chá de uva-passas</li>
+      <li>1/3 de xícara de chá de nozes ou castanhas picadas</li>
+      <li>Cheiro-verde a gosto</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 class="subtitulo">Modo de Preparo</h2>
+    <ol class="lista_passos">
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-01-730x548.jpeg.webp" alt="">
+        Reúna todos os ingredientes do arroz de Natal fácil;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-02-730x548.jpeg.webp" alt="">
+        Em uma panela, aqueça o azeite e, em fogo baixo, frite a cebola até começar a dourar;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-03-730x548.jpeg.webp" alt="">Assim que começar a dourar, adicione o alho e refogue até dourar, mexendo às vezes para não queimar;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-04-730x548.jpeg.webp" alt="">
+        Em seguida, acrescente o arroz e misture bem;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-05-730x548.jpeg.webp" alt="">Tempere com sal, adicione a água quente e tampe a panela. Deixe cozinhar até a água começar a secar;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-06-730x548.jpeg.webp" alt="">
+        Quando o arroz estiver quase sem água, coloque a cenoura ralada por cima e, com a tampa fechada, deixe cozinhar até toda água secar;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-07-730x548.jpeg.webp" alt="">
+        Adicione as uvas-passas, as nozes, misture bem e desligue o fogo;
+      </li>
+      <li class="passo">
+        <img class="passo_imagem" src="https://www.receiteria.com.br/wp-content/uploads/arroz-de-natal-facil-08-730x548.jpeg.webp" alt="">
+        Finalize com cheiro-verde e sirva. Bom apetite!
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2 class="subtitulo">Dúvidas</h2>
+
+    <h3>1 - Qual o melhor tipo de arroz para esse preparo?</h3>
+    <p>O melhor tipo de arroz para esse preparo é o agulinha ou qualquer outro arroz branco de grão longo, que são ideais para promover um arroz soltinho e delicioso.</p>
+
+    <h3>2 - Como dar um toque especial ao arroz de natal?</h3>
+    <p>Use caldo de legumes ou frango ao invés de água para cozinhar o arroz, isso dará mais sabor à receita.</p>
+
+    <h3>3 - Dura quantos dias na geladeira?</h3>
+    <p>Se você guardar em potes herméticos, bem vedados, seu arroz pode durar até 3 dias na geladeira.</p>
+
+    <h3>4 - Posso congelar as sobras de arroz de natal?</h3>
+    <p>Sim, é possível congelar as sobras do arroz. Mas, saiba que as texturas dos ingredientes podem mudar um pouquinho. Descongele na geladeira e, na hora consumir, esquente no fogão com um pouco de água.</p>
+
+    <h2>Dicas</h2>
+    <p>
+      O arroz natalino é uma ótima opção para servir de acompanhamento nas festas de fim de ano.
+      <br>
+      Para deixar o seu preparo ainda mais bonito e delicioso, adicione cúrcuma ou curry na hora de temperar.
+      <br>
+      Você pode deixar ele ainda mais colorido adicionando outros ingredientes como uvas-passsas pretas, ervilhas, milho, damascos e até cubinhos de bacon bem fritinhos e servir ele com um lombo assado delicioso.
+    </p>
+
+  </section>
+
+
+  <footer>
+    <h4 class="subtitulo">Outras receitas</h4>
+    <a href="./farofa.html">Farofa de bacon com calabresa simples</a>
+    <br>
+    <a href="./pate.html">Patê de Frango com Cenoura</a>
+    <br>
+    <a href="./chester.html">Chester simples</a>
+  </footer>
+
+</body>
+
+</html>

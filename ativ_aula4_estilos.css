@@ -1,0 +1,20 @@
+.cabecalho{background-color:lightgray;
+}
+
+.texto_titulo{text-align: center;}
+
+.lista{
+    list-style: none;
+}
+
+.lista_item{
+    display: inline;
+}
+
+.rodape{
+    background-color: grey;
+}
+
+.texto_rodape{
+    color: white;
+}
