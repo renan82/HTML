@@ -1,0 +1,66 @@
+-color: muda a cor do texto. Ex: color: #FF0000;.
+
+-font-family: define uma lista de fontes para ser utilizada no elemento (e seus herdeiros). Os nomes das fontes são separados por vírgulas, na ordem da preferida para a menos preferida. Fontes que possuem mais que uma palavra como nome tem que estar entre aspas. Por exemplo: font-family: "Trebuchet MS", Arial, Tahoma, sans-serif;. Se o usuário tiver a fonte Trebuchet MS, o navegador irá usá-la; caso contrário, Arial; caso contrário, Tahoma; e se não houver nenhuma destas fontes instaladas, a fonte padrão sem serifa do sistema operacional (mais sobre os tipos de fontes abaixo).
+
+-font-size: muda o tamanho do texto. Podemos utilizar unidades como px (pixels), em (unidade relativa), %, pt (pontos), entre outras. Ex: font-size: 20px.
+
+-font-weight: muda o peso da fonte. Valores incluem bold e normal. Ex: font-weight: bold;.
+
+-font-style: muda o estilo da fonte. Valores incluem italic e normal. Ex: font-style: italic;.
+
+-text-decoration: muda a decoração do texto. Valores incluem underline e none (por ex: para retirar o sublinhado de links). Ex: text-decoration: underline;.
+
+-line-height: muda a altura de cada linha, ou entrelinha. É comum utilizar a unidade em, pois assim deixamos a entrelinha proporcional ao tamanho da fonte. Ex: line-height: 1.5em; (1.5 vezes o tamanho da fonte).
+
+-text-transform: muda a "caixa" do texto. Valores incluem uppercase (caixa-alta), lowercase (caixa-baixa) e capitalize (primeira letra maíuscula e o restante minúsculas). Ex: text-transform: uppercase;.
+
+-word-spacing: determina o espaçamento entre palavras. Ex: word-spacing: 5px;.
+
+-letter-spacing: determina o espaçamento entre letras. Ex: letter-spacing: 2px;.
+
+-text-align: determina o alinhamento do texto. Ex: text-align: center;.
+
+-width: determina a largura de algo, pode ser definida em px, %, em, rem, vw. Ex: width: 200px;.
+
+-height: determina a alturade algo, pode ser definida em px, %, em, rem, vw. Ex: height: 200px;.
+
+-background-color: define a cor de fundo de algo. Ex: background-color: #FF0000;.
+
+-border-radius: determina o quanto a borda faz a dobra
+
+
+CORES: PARA VER AS CORES COMPLETAS PROCURAR NO GOOGLE PALETA DE CORES CSS
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4 Revisão</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1>Título da primeira div</h1>
+        <p>Texto da primeira div</p>
+        <a href="#">Link da primeira div</a>
+        <img src="https://www.valuehost.com.br/blog/wp-content/uploads/2016/10/programming-770x438.jpg.webp" alt="imagem sobre programação">
+    </div>
+
+    <div>
+        <h1>Título da segunda div</h1>
+        <p>Texto da segunda div</p>
+        <a href="#">Link da segunda div</a>
+        <img src="https://www.insper.edu.br/wp-content/uploads/2023/04/Linguagen-de-programacao-2-shutterstock_1680857539.jpg.jpeg" alt="imagem sobre programação">
+    </div>
+
+</body>
+</html>
+
+
