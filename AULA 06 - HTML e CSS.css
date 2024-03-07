@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.caixinha{
+    background-color: red;
+    height: 50vh;
+    width: 80vw;
+    display: flex;
+    /* DISPLAY FLEX: COLOCA TODOS OS ITENS DA DIV AO LADO */
+    /* OS CÓDIGOS ABAIXO SÓ FUNCIONAM COM O DISPLAY FLEX ATIVADO */
+    gap: 10px;  
+    /* GAP : CRIA UM ESPAÇAMENTO AO DISPLAY FLEX */
+    justify-content:space-around;
+    align-items: center;
+    /* flex-direction: column; */
+    /* FLEX-DIRECTION DEIXA EM PÉ*/
+    flex-wrap: wrap;
+    /* flex-wrap: QUEBRA A PAGINA AUTOMATICAMENTE E VAI DESCENDO */
+    flex-direction:
+}
+.caixinha2{
+
+    background-color: green;
+    height: 80vh;
+    width: 80vw;
+}
+
+p{
+    font-size: 30px;
+}
+
+
+
+JOGO:      https://flexboxfroggy.com/

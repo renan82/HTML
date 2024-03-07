@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=h, initial-scale=1.0">
+    <title>DESAFIO INFINITY</title>
+    <link rel="stylesheet" href="AULA 06 - PROJETO.css">
+
+</head>
+<body>
+    <header id="home" class="container">
+        <h1 class="titulo">Desafio Infinity</h1>
+        <nav>
+          <ul class="lista">
+            <li><a class="item-lista" href="#home">Home</a></li>
+            <li><a class="item-lista" href="#sobre">Sobre</a></li>
+            <li><a class="item-lista" href="#contato">Contato</a></li>
+            <li><a class="item-lista" href="#cadastros">Cadastros</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main>
+    
+        <section id="sobre" class="container">
+          <h2 class="subtitulo">Sobre Mim</h2>
+          <p class="texto-sobre">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id sint dolorem saepe est ipsam animi, maxime quas! Pariatur nemo omnis, aspernatur iste totam, vitae, dolorum ipsum magnam ipsam similique natus?.</p>
+          <img class="imagem-sobre" src=" https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/06/15/programadora-us3i6jqikoxk.jpg" alt="Programador">
+        </section>
+    
+        <section id="contato" class="container">
+          <h2 class="subtitulo">Contato</h2>
+          <form class="formulario">
+            <div class="formulario-divisoria">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required>
+              <br>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+    
+            <div class="formulario-divisoria">
+              <label>Sexo:</label>
+              <br>
+              <input type="radio" name="sexo" id="masculino">
+              <label for="masculino">Masculino</label>
+              <input type="radio" name="sexo" id="feminino">
+              <label for="feminino">Feminino</label>
+            </div>
+    
+            <div class="formulario-divisoria">
+              <label>Linguagens:</label>
+              <br>
+              <input type="checkbox" name="linguagem" id="html">
+              <label for="html">HTML</label>
+              <br>
+              <input type="checkbox" name="linguagem" id="css">
+              <label for="css">CSS</label>
+              <br>
+              <input type="checkbox" name="linguagem" id="js">
+              <label for="js">Javascript</label>
+              <br>
+              <input type="checkbox" name="linguagem" id="py">
+              <label for="py">Python</label>
+            </div>
+            <button class="botao" type="submit">Enviar</button>
+          </form>
+        </section>
+    
+        <section id="cadastros" class="container">
+          <h2 class="subtitulo">Dados Cadastrados</h2>
+          <table class="tabela">
+            <tr>
+              <th class="tabela-titulo">Nome</th>
+              <th class="tabela-titulo">Email</th>
+            </tr>
+            <tr>
+              <td>João</td>
+              <td>joao@example.com</td>
+            </tr>
+            <tr>
+              <td>Maria</td>
+              <td>maria@example.com</td>
+            </tr>
+          </table>
+        </section>
+      </main>
+    
+      <footer class="container">
+          <p class="footer-texto">© 2024 Desafio Infinity. Todos os direitos reservados.</p>
+          <p>Desenvolvido por <span class="footer-nome">Abelardo Júnior</span></p>
+      </footer>
+
+</body>
+</html>
