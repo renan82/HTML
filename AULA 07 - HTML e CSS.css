@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: rgb(228, 168, 210);
+    font-family: "Roboto Mono", monoespaço;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 20px;
+}
+
+
+
+.lista{ 
+   
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    font-weight:1000;
+    font-style:unset;
+    display:flex;
+    gap: 30px;
+}
+
+
+.imagem_cabecalho{
+    width: 150px;
+    justify-content:space-between;
+    border-radius: 50%;
+}
+
+.cabecalho_item_lista{
+    text-decoration: none;
+    color: whitesmoke;
+    /* ESCOLHER FONT DO GOOGLE: VAI NO GOOGLE, DIGITE FONT GOOGLE, DEPOIS COPIA O CODIGO DA FONTE, INSERI ANTES DO ARQUIVO DO ESTILO NO CODIGO HTML */ 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    background-image: url("https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.caixa{
+    padding: 30px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+
+.frase1 {color: rgba(22, 26, 16, 0.616);
+    font-style: italic;
+    word-spacing: 10px;
+}
+
+h1{
+    align-items: flex-start;
+    word-spacing: 15px;
+    font-size: 30px;
+    color: blueviolet;
+}
+
+.conheca_mais{
+    color: rgb(238, 7, 7);
+    text-decoration: none;
+}
